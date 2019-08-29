@@ -57,7 +57,8 @@ This image include an HTTP Server that allows to communicate with MQTT bridge us
 Due to mandatory use of `--network=host`, this image expose _on the host_ the port `888`, and you cannot change it without change the Dockerfile.
 NB: Only Docker for Linux support exposing ports with --network=host. So you cannot use this image with your macOS.
 
-*Available Endpoints:*
+
+Available Endpoints:
 --------------------
 **/devices**  
 Return the list of available devices
