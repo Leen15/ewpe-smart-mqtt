@@ -47,7 +47,7 @@ npm start
 
 - Publish to `ewpe/devices/list` to receive list of registered devices
 - Publish to `ewpe/{deviceId}/get` to receive status of {deviceId}
-- Publish to `ewpe/{deviceId}/set` to set status of {deviceId}, payload should be json object with key/values pairs to set, i.e:
+- Publish to `ewpe/{deviceId}/set` to set status of {deviceId}, payload should be a json object with key/values pairs to set, i.e:
 ```
 ewpe/{deviceId}/set {"Pow": 1, "SetTem": 24}
 ```
@@ -73,6 +73,7 @@ Return the status of a single device by ID
 Set a list of settings for a single device.  
 You have to pass a json in params, like this:   
 `/set/:id?json={"Pow": 1, "SetTem": 24}`  
+
 You can set all properties that you see with status EP.
 
 ## Supported devices
