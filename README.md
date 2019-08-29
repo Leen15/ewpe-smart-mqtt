@@ -53,9 +53,9 @@ ewpe/{deviceId}/set {"Pow": 1, "SetTem": 24}
 ```
 
 ## Communicating with the bridge using REST API
-This image include an HTTP Server that allows to communicate with MQTT bridge using REST api.
-Due to mandatory use of `--network=host`, this image expose _on the host_ the port `888`, and you cannot change it without change the Dockerfile.
-NB: Only Docker for Linux support exposing ports with --network=host. So you cannot use this image with your macOS.
+This image include an HTTP Server that allows to communicate with MQTT bridge using REST api.  
+Due to mandatory use of `--network=host`, this image expose _on the host_ the port `888`, and you cannot change it without change the Dockerfile.  
+NB: Only Docker for Linux support exposing ports with --network=host. So you cannot use this image with your macOS.  
 
 
 Available Endpoints:
