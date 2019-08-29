@@ -19,7 +19,7 @@ docker run -it \
     leen15/ewpe-smart-mqtt:latest
 ```
 
-## Installation
+## Installation without docker
 
 1. Clone or download this repository
 ```
@@ -71,7 +71,7 @@ Return the status of a single device by ID
 **/set/:id?json=**  
 Set a list of settings for a single device.  
 You have to pass a json in params, like this:   
-`/set/:id?json={"Pow": 1, "SetTem": 24}`
+`/set/:id?json={"Pow": 1, "SetTem": 24}`  
 You can set all properties that you see with status EP.
 
 ## Supported devices
